@@ -1,3 +1,22 @@
+## Project feedreader - writing tests against a pre-existing application.
+
+This is a project for learning testing with [Jasmine](http://jasmine.github.io/) on a pre-existing web-based application that reads and display articles from several predefined RSS feeds sources.
+The project was done as part of [Front-End Web Developer Nanodegree](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) program.
+Work on this project comprised of writing tests that test the following features of the app:
+
+- Initial values of the RSS feeds available for reading
+- Menu behavior (initial and when toggled)
+- The loading of the feeds via `loadFeeds` async function
+
+
+## Running instructions
+
+Open `index.html` page in your favorite browser. Verify that all specs are passing (green). 
+The app should load feeds using google's feed reader API. Top left there is a menu icon that displays the menu with currently available feeds that can be read.
+
+
+## Assignment instructions:
+
 # Project Overview
 
 In this project you are given a web-based application that reads RSS feeds. The original developer of this application clearly saw the value in testing, they've already included [Jasmine](http://jasmine.github.io/) and even started writing their first test suite! Unfortunately, they decided to move on to start their own company and we're now left with an application with an incomplete test suite. That's where you come in.
